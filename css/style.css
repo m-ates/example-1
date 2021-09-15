@@ -1,0 +1,385 @@
+a {
+    text-decoration: none!important;
+    list-style-type: none!important;
+}
+
+
+.card {
+   
+    background-color: rgba(216, 228, 163, 0.514);
+    cursor: pointer;
+  
+}
+
+.card img{
+    
+  
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+
+
+    
+}
+
+.item p{
+    background-color: rgba(213, 237, 0, 0.611);
+}
+
+.card span {
+    font-style: italic;
+}
+
+.card {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#homeproduct h3{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    padding:1%;
+    margin: 1%;
+  
+}
+
+
+.caseImage img{
+    box-shadow: 3px 3px 10px rgb(85, 5, 5);
+   
+}
+
+
+
+/* icerik */
+#icerik {
+    display: block;
+    position: relative;
+background-color:rgba(168, 204, 5, 0.692);
+
+}
+#icerik p{
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(78, 13, 13);
+    padding-top: auto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;
+    margin-block-end: 0em;
+}
+#icerik p span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: limegreen;
+    margin-top: 5px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+
+    
+
+
+#logosol a{
+    font-size: 40px;
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(253, 253, 255);
+}   
+
+#logosag button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    margin-right: -90px;
+    line-height: 15px;
+   padding:5px;
+   margin:10px;
+   margin-left: 1rem;
+  
+  
+}
+
+#logosag button i{
+    font-size: 20px;
+    color: rgb(253, 249, 249);
+}
+/* menü */
+
+.nav1{
+
+    background-color: rgba(7, 101, 110, 0.212);
+    
+ }
+ 
+ 
+ .altmenu ul {
+   display: block!important;
+ }
+ .altmenu ul li {
+ float: left;
+ 
+ }
+ 
+ 
+.ddmenu1{
+    
+}
+
+ 
+ .dropdown-menu {
+     position: relative;
+     position:absolute;
+     
+    width: 25rem;
+     background-color:  rgb(3, 27, 75);
+     text-align: center;
+    color: rgb(255, 225, 0);
+ }
+
+ .dropdown-menu input {
+   width: 94%;
+   margin: auto;
+ }
+
+.dropdown-item{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#main-nav ul li a{
+    color: white;
+}
+
+.nav-item1{
+    background-color:  rgb(97, 45, 45);
+    border-radius: 15px;
+}
+
+#nvbCollapse ul li div button:hover{
+    color: lawngreen;
+    margin-left: 5px;
+    
+}
+
+
+/* alt menü */
+
+
+
+.offcanvas-header{ display:none; }
+
+@media (max-width: 992px) {
+  .offcanvas-header{ display:block; }
+  .navbar-collapse {
+    position: fixed;
+    top:0; 
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: black;
+    transition: visibility .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  }
+  .navbar-collapse.show {
+      position: fixed;
+      z-index: 4;
+    visibility: visible;
+    transform: translateX(-100%);
+  }
+}
+
+
+
+/* Slider */
+
+.slide1{
+    height: 55vh;
+    z-index: -1;
+ 
+}
+ 
+.slide1a{
+    margin-top:-100px; 
+}
+
+#slide2{
+    background-color: rgb(15, 36, 104);
+    padding-top:5px;
+
+    margin-top:3%;
+    color: rgb(255, 255, 255);
+    font-size:55px;
+}
+
+#slide2 h1{
+    font-size:35px;
+}
+
+
+
+/* owl */
+.owl-carousel div img{
+    float: right;
+    position: relative;
+ height: 10rem;
+
+  
+}
+
+
+.card{
+  padding: auto;
+  margin: 1rem;
+}
+
+
+
+
+
+
+@media screen and ( max-width:991px ) {
+    #logo{
+        
+    }
+    
+    #logosol a{
+
+        font-size: 35px;
+        padding:0px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        text-decoration: none   ;
+        margin-left: auto;
+        color: rgb(255, 255, 255);
+    }   
+    
+    #logosag button {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:rgb(250, 250, 250);
+        font-size: 15px;
+        
+       padding:auto;
+       padding-left:11px;
+       margin:auto;
+      
+    }
+    
+    #logosag button i{
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+    }
+}
+
+@media screen and ( max-width:917px ) {
+    .carousel-item img{
+        margin-top:0px;
+        margin-bottom: 50px; 
+    }
+}
+
+@media screen and ( max-width:917px ) {
+    .slide1 div h5{
+        
+       max-width: 50vh;
+       display: center;
+       text-align: center;
+       margin: auto;
+       position: relative;
+     
+    }
+}
+
+ @media all and (min-width: 992px) {
+    .navbar .nav-item1 .dropdown-menu
+    {  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+
+    .navbar .nav-item1:hover .nav-link
+    { color: rgb(0, 0, 0); transition:500ms all; }
+
+    .navbar .dropdown-menu.fade-down
+    { top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+
+    .navbar .dropdown-menu.fade-up
+    { top:180%;  }
+
+    .navbar .nav-item1:hover .dropdown-menu
+    { transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+}
+
+@media screen and ( max-width:400px ) {
+
+
+
+  
+
+    #logosol a{
+        font-size: 2rem;
+        margin-top: 5px;
+        padding-left: 8px;
+    }
+
+    #logosag button {
+        width: 90px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:rgb(255, 255, 255);
+        font-size: 8px;
+       padding:auto;
+       margin:auto;
+    
+      
+    }
+    
+    #logosag button i {
+        width: auto;
+        position: relative;
+        color:rgb(251, 239, 239);
+        font-size: 17px;
+       padding:auto;
+       padding-right: 5px;
+       margin:auto;
+    
+      
+    }
+
+    .slide1a{
+
+        margin-top:-50px; 
+    }
+
+    #slide2 h1{
+
+        font-size:20px;
+        height: 5px;
+    }
+
+    .owl-carousel div img{
+      
+       height: 7rem;
+    
+      
+    }
+    .owl-carousel div h5{
+      
+        font-size: 10px;
+     
+       
+     }
+
+    .card{
+        height: 17rem;
+        width: 5rem;
+    }
+
+    h5{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+}
